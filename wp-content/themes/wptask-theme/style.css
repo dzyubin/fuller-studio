@@ -133,9 +133,10 @@ section .row div {
     content: '';
     width: 60px;
     height: 4px;
-    background: gray;
+    background: orangered;
     position: absolute;
     bottom: -4px;
+    left: 0;
 }
 
 
