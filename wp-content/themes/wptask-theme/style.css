@@ -32,6 +32,7 @@ button {
     height: 600px;
     background: url("assets/images/01_02_Home - header_background.png");
     background-size: cover;
+    background-position: center;
 }
 
 .site-header-main {
@@ -45,8 +46,16 @@ button {
     height: 234px;
 }
 
-.page-template-posts-form #page .site-header {
+.page-template-posts-form #page .site-header, .single #page .site-header {
     height: 234px;
+}
+
+#posts-form-link {
+    display: none;
+}
+
+.home #posts-form-link {
+    display: block;
 }
 
 .has-header-image.home.blog .custom-header {

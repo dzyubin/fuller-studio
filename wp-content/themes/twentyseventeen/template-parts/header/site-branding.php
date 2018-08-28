@@ -27,6 +27,11 @@
 			if ( $description || is_customize_preview() ) :
 			?>
 				<p class="site-description"><?php echo $description; ?></p>
+                <a id="posts-form-link"
+                   style="padding: 10px; background: #333; margin: 10px; position: absolute; top: 100px; font-size: 2em; color: #fff;"
+                   href="<?php echo "/posts-form/"; ?>">
+                    Posts Form
+                </a>
 			<?php endif; ?>
 		</div><!-- .site-branding-text -->
 
