@@ -25,6 +25,7 @@
  */
 function get_query_var( $var, $default = '' ) {
 	global $wp_query;
+//	var_dump($wp_query);
 	return $wp_query->get( $var, $default );
 }
 

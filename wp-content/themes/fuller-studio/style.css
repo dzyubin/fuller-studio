@@ -1,0 +1,90 @@
+/*
+Theme Name: Fuller Studio
+Version: 1.0
+Text Domain: fullerstudio
+*/
+
+html {
+    margin-top: 0!important;
+}
+
+button {
+    background-color: #333333;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.site-header {
+    height: 600px;
+    background: url("assets/images/01_02_Home - header_background.png");
+    background-size: cover;
+}
+
+.site-header-main {
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.site-header-main a, .site-header-main button {
+    color: #FFFFFF;
+}
+
+.site-header-main p, .site-header-main button {
+    font-size: 12px;
+}
+
+.site-branding {
+    position: relative;
+    top: 50%;
+    left: 60%;
+    width: 300px;
+}
+
+nav ul li {
+    float: left;
+    padding: 5px;
+    list-style-type: none;
+}
+
+section {
+    margin-top: 60px;
+}
+
+section .row div {
+    color: #000;
+}
+
+#who-we-are > .row div.col-sm-6 {
+    text-align: center;
+}
+
+#who-we-are .row:last-child div.col-sm-4 {
+    padding-left: 80px;
+}
+
+#portfolio {
+    background: #333333;
+    color: #FFFFFF;
+    padding: 80px 150px;
+}
+
+#portfolio hr {
+    width: 150px;
+    border-color: orangered;
+    margin-left: 20px;
+}
+
+#portfolio p {
+    display: block;
+    position: relative;
+}
+
+#portfolio p:after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background: gray;
+    position: absolute;
+    bottom: -4px;
+}

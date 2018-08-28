@@ -78,6 +78,7 @@ $table_prefix  = 'r4vv1_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', true);
+@ini_set( 'display_errors', 0 );
 
 /* That's all, stop editing! Happy blogging. */
 
