@@ -162,7 +162,7 @@ get_header();
             } else if (innerWidth < 992 && innerWidth > 720) {
                 return 600;
             } else if (innerWidth < 720) {
-                return 330;
+                return 480;
             } else {
                 return 870;
             }

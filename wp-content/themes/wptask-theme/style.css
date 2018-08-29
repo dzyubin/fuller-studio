@@ -52,6 +52,7 @@ button {
 
 .page-template-landing-page #content {
     padding-bottom: 0!important;
+    padding-top: 0;
 }
 
 #posts-form-link {
@@ -156,12 +157,16 @@ section .row div {
 }
 
 @media (max-width: 768px) {
-    #portfolio p:after {
-        display: none;
+    #portfolio {
+        margin-top: 0;
     }
 
     #portfolio h3 {
         margin-right: 0;
+    }
+
+    #portfolio p:after {
+        display: none;
     }
 }
 
